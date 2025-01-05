@@ -1,0 +1,59 @@
+body{
+  background: url(background.jpg) no-repeat;
+  display: flex;
+  background-size: cover;
+  height: 97.8vh;
+  
+}
+
+.mailbox{
+  height: 450px;
+  width: 600px;
+  background-color: rgb(255, 255, 255 , 0);
+  backdrop-filter: blur(12px);
+  margin-top: 12.5%;
+  margin-left: 28%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  position: absolute; 
+
+}
+
+.mail{
+  height: 70px;
+  width: 500px;
+  background-color: rgb(255, 255, 255, 0.1);
+  position: absolute;
+  backdrop-filter: blur(5px);
+  margin-top: 25%;
+  margin-left: 31.5%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.password{
+  height: 70px;
+  width: 500px;
+  background-color: rgb(255, 255, 255, 0.1);
+  position: absolute;
+  backdrop-filter: blur(5px);
+  margin-top: 33%;
+  margin-left: 31.5%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.register{
+  margin-top: 15% ;
+  margin-left: 39%;
+  color: rgb(255, 255, 255, 0.4);
+  position: absolute;
+  z-index: 1;
+  font-size: 70px;
+  font-family: "DM Serif Text", serif;
+}
+
